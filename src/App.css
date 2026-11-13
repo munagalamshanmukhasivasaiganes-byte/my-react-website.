@@ -1,0 +1,156 @@
+.Navlogo{
+    height: 60px;
+    margin-left:20px;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid darkgreen;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightgreen;
+    background-image:radial-gradient(lightgreen,darkgreen);
+    
+}
+.Navlinks{
+    display: flex;
+    list-style: none
+}
+ul li {
+    margin-right: 50px;
+}
+.Butt1{
+    background-color:rgb(81, 184, 81);
+    color: white;
+    margin-right: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.Butt1:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.Homepage{
+    background-color: lightgreen; 
+    background-image:linear-gradient(lightgreen,darkgreen);
+    height: 100vh;
+}
+.Homepage{
+    display: flex;
+}
+.homehea{
+    font-size:50px;
+    margin-left:5pxpx;
+}
+.homeimg{
+    height: 500px;
+    margin: 50px;
+}
+.homepara{
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.butt2{
+    background-color:rgb(81, 184, 81);
+    color: white;
+    margin-right: 20px;
+    padding: 20px 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.butt2:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.Leftside{
+    margin-left: 100px;
+    transform: translateX(-500px);
+    animation: left-right 1.5s ease forwards;
+}
+@keyframes left-right{
+    100%{
+        transform:translateX(0px);
+    }
+}
+.Aboutpage{
+    background-color: lightgreen; 
+    background-image:linear-gradient(lightgreen,darkgreen);
+    height: 110vh;
+}
+.Abouthea{
+    color:rgb(7, 5, 5);
+    margin-left:570px;
+    font-size:40px;
+}
+.Abopara{
+    color:rgb(9, 8, 8);
+    font-size: larger;
+    margin:30px;
+}
+.abohea2{
+    margin-left: 100px;
+}
+.abopara2{
+    margin-left:100px;
+    font-size: larger;
+}
+.abohea4{
+    margin-left: 100px;
+}
+.abopara4{
+    margin-left:100px;
+    font-size: larger;
+}
+.abohea1{
+    margin-left: 10px;
+}
+.abopara1{
+    margin-left:10px;
+    font-size: larger;
+}
+.abohea3{
+    margin-left: 10px;
+}
+.abopara3{
+    margin-left:10px;
+    font-size: larger;
+}
+.abohea5{
+    margin-left: 10px;
+}
+.abopara5{
+    margin-left:10px;
+    font-size: larger;
+}
+.Locationpage{
+    background-color: lightgreen; 
+    background-image:linear-gradient(lightgreen,darkgreen);
+    height: 20vh;
+}
+.Locationhea{
+    margin-left: 580px;
+}
+.Locationinput{
+    margin-left: 670px;
+}
+.Contactpage{
+    background-color: lightgreen; 
+    background-image:linear-gradient(lightgreen,darkgreen);
+    height: 20vh;
+}
+.contacthea{
+    margin-left: 485px;
+}
+.contactpara{
+    margin-left: 650px;
+    font-size: x-large;
+}
